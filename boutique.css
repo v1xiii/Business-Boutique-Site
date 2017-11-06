@@ -1,0 +1,60 @@
+@viewport {
+    zoom: 1.0;
+    width: device-width;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+article {
+	display:flex;
+	background-image: url(Business-wallpaper-HD-Free.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	justify-content: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #60707D;
+	color: #FFFFFF;
+	line-height: 3rem;
+	max-height: 3rem;
+}
+
+h1 {
+	font-size: 1.5rem;
+	border: solid black 1px;
+}
+
+nav {
+display: flex;
+	font-size: .8rem;
+	font-family: arial;
+}
+
+span {
+	margin-right: 1rem;
+	min-width: 5rem;
+	text-align: center;
+	border: solid 1px;
+}
+
+#logo {
+	position: absolute;
+	width: 25vw;
+	height:auto;
+	top: 1rem;	
+}
+
+#bblogo {
+	max-height: 3rem;
+	width: auto;
+	margin-right: 1rem;
+}
