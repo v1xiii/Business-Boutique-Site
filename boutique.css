@@ -1,60 +1,116 @@
-@viewport {
-    zoom: 1.0;
-    width: device-width;
-}
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 }
 
 article {
 	display:flex;
-	background-image: url(Business-wallpaper-HD-Free.png);
-	background-size: contain;
-	background-repeat: no-repeat;
+	flex-direction: column;
+	background: url(Business-wallpaper-HD-Free.png) no-repeat center fixed;
+	background-size: cover;
 	height: 100vh;
 	position: relative;
-	justify-content: center;
+	align-items: center;
 }
 
 header {
 	display: flex;
-	justify-content: space-between;
 	background-color: #60707D;
 	color: #FFFFFF;
 	line-height: 3rem;
-	max-height: 3rem;
+	height: 7vh;
+	justify-content: space-between;
+	align-content: center;
 }
 
 h1 {
-	font-size: 1.5rem;
-	border: solid black 1px;
+	font-size: 3vw;
 }
 
 nav {
-display: flex;
-	font-size: .8rem;
-	font-family: arial;
+	display: flex;
+	font-size: 1.8vw;
 }
 
 span {
 	margin-right: 1rem;
-	min-width: 5rem;
+	min-width: 8vw;
 	text-align: center;
-	border: solid 1px;
-}
-
-#logo {
-	position: absolute;
-	width: 25vw;
-	height:auto;
-	top: 1rem;	
 }
 
 #bblogo {
 	max-height: 3rem;
 	width: auto;
-	margin-right: 1rem;
+	margin: .3rem;
+}
+
+#asulogo {
+	width: 15rem;
+	height:auto;
+	margin-top:1rem;
+}
+
+#bbtitle {
+	width: 15rem;
+	height:auto;
+	margin-top: .5rem;
+	margin-bottom: 1rem;
+}
+
+#paragraph_background {
+	margin-top: .5rem;
+	height: 5rem;
+	width: 26rem;
+	background-color: white;
+	opacity: 0.6;
+	filter: blur(2px);
+}
+
+#p {
+	display: flex;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 30rem;
+	font-size: 1.5vh;
+	height: auto;
+	max-height: 9vh;
+	margin-top: -4.7rem;
+	justify-content: center;
+	overflow: auto;
+	padding-left: 2rem;
+}
+
+p {
+	z-index: 1;
+	width: 50ch;
+	font-size: 1rem;
+}
+
+#buttons {
+	display:flex;
+	justify-content: center;
+	height: 8vh;
+	width: 30rem;
+	font-size: 1.5rem; 
+	color: white;
+	margin-top: 4vh;
+}
+
+#get_in_touch {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 12rem; 
+	background-color:#27A348;
+	margin-right: 2vw;
+}
+
+#donate_now {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 12rem;
+	background-color:#00659E;
+	margin-left: 2vw;
 }
