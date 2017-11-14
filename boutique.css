@@ -10,7 +10,7 @@ article {
 	flex-direction: column;
 	background: url(Business-wallpaper-HD-Free.png) no-repeat center fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 93vh;
 	position: relative;
 	align-items: center;
 }
@@ -26,10 +26,13 @@ header {
 }
 
 h1 {
+	padding-top: .2rem;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 3vw;
 }
 
 nav {
+	padding-top: .2rem;
 	display: flex;
 	font-size: 1.8vw;
 }
@@ -49,7 +52,7 @@ span {
 #asulogo {
 	width: 15rem;
 	height:auto;
-	margin-top:1rem;
+	margin-top:5rem;
 }
 
 #bbtitle {
@@ -104,6 +107,7 @@ p {
 	width: 12rem; 
 	background-color:#27A348;
 	margin-right: 2vw;
+	padding-left: 2vw;
 }
 
 #donate_now {
@@ -113,4 +117,5 @@ p {
 	width: 12rem;
 	background-color:#00659E;
 	margin-left: 2vw;
+	padding-left: 2vw;
 }
