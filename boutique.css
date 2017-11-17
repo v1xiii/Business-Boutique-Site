@@ -5,7 +5,7 @@
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 }
 
-article {
+#home {
 	display:flex;
 	flex-direction: column;
 	background: url(Business-wallpaper-HD-Free.png) no-repeat center fixed;
