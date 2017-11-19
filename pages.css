@@ -5,12 +5,17 @@
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 }
 
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
 header {
 	display: flex;
 	background-color: #60707D;
 	color: #FFFFFF;
 	line-height: 3rem;
-	height: 7vh;
+	height: 9vh;
 	justify-content: space-between;
 	align-content: center;
 }
@@ -18,13 +23,13 @@ header {
 #title {
 	padding-top: .2rem;
 	font-family: 'Work Sans', sans-serif;
-	font-size: 3vw;
+	font-size: 2.5vw;
 }
 
 nav {
 	padding-top: .2rem;
 	display: flex;
-	font-size: 1.8vw;
+	font-size: 1.5vw;
 }
 
 span {
@@ -41,8 +46,8 @@ span {
 
 #home {
 	display:flex;
-	height: 93vh;
-	background-color: black;
+	height: auto;
+	background: linear-gradient(to bottom right, black, grey);
 	color: white;
 	justify-content: center;
 }
@@ -59,7 +64,25 @@ section {
 	align-items: center;
 }
 
-#pagename, #content {
+#content {
 	padding: 2rem;
 }
 
+#pagename {
+	padding: 3rem 2rem 2rem 2rem;
+	max-width: 30vw;
+}
+
+#donationpic {
+	max-width: 30rem;
+	max-height: 75vh;
+}
+
+#contact {
+	width: 12rem; 
+	background-color:#27A348;
+}
+
+article {
+	min-height: 91vh;
+}

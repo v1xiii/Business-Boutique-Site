@@ -5,12 +5,17 @@
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 }
 
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
 #home {
 	display:flex;
 	flex-direction: column;
 	background: url(Business-wallpaper-HD-Free.png) no-repeat center fixed;
 	background-size: cover;
-	height: 93vh;
+	height: 91vh;
 	position: relative;
 	align-items: center;
 }
@@ -20,7 +25,7 @@ header {
 	background-color: #60707D;
 	color: #FFFFFF;
 	line-height: 3rem;
-	height: 7vh;
+	height: 9vh;
 	justify-content: space-between;
 	align-content: center;
 }
@@ -34,7 +39,7 @@ h1 {
 nav {
 	padding-top: .2rem;
 	display: flex;
-	font-size: 1.8vw;
+	font-size: 1.5vw;
 }
 
 span {
@@ -51,13 +56,13 @@ span {
 
 #asulogo {
 	width: 15rem;
-	height:auto;
-	margin-top:5rem;
+	height: auto;
+	margin-top: 4rem;
 }
 
 #bbtitle {
 	width: 15rem;
-	height:auto;
+	height: auto;
 	margin-top: .5rem;
 	margin-bottom: 1rem;
 }
@@ -76,12 +81,11 @@ span {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	width: 30rem;
 	font-size: 1.5vh;
-	height: auto;
-	max-height: 9vh;
+	max-height: 10vh;
 	margin-top: -4.7rem;
 	justify-content: center;
-	overflow: auto;
-	padding-left: 2rem;
+	overflow: hidden;
+	padding-left: 2.5rem;
 }
 
 p {
@@ -97,7 +101,7 @@ p {
 	width: 30rem;
 	font-size: 1.5rem; 
 	color: white;
-	margin-top: 4vh;
+	margin-top: 5vh;
 }
 
 #get_in_touch {
@@ -107,7 +111,7 @@ p {
 	width: 12rem; 
 	background-color:#27A348;
 	margin-right: 2vw;
-	padding-left: 2vw;
+	padding-left: 1vw;
 }
 
 #donate_now {
@@ -117,5 +121,5 @@ p {
 	width: 12rem;
 	background-color:#00659E;
 	margin-left: 2vw;
-	padding-left: 2vw;
+	padding-left: 1vw;
 }
